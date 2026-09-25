@@ -68,3 +68,9 @@ const images = [
     description: 'Lighthouse Coast Sea',
   },
 ];
+
+new SimpleLightbox('.gallery-item a', {
+  captions: true,
+  captionsData: 'alt',
+  captionDelay: 250,
+});
